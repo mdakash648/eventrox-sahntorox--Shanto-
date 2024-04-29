@@ -1,0 +1,504 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/mmenu-light.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<header>
+    <div class="container">
+        <div class="header_content">
+            <div class="headerlogoBox">
+                <a href="index.html"><img src="assets/images/headerLogo.png" alt=""></a>
+            </div>
+            <div class="headerMenuBox">
+                <div class="mmenu_box d-flex d-lg-none column-gap-3">
+                    <div class="ssBtn d-none d-sm-block d-lg-none ms-0">
+                        <button class="mainBtns ms-0">
+                            <span class="btn_text">Get Tickets</span>
+                        </button>
+                    </div>
+                    <button type="button open_search" class="btn p-0 modalBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <a href="#mntk_mmenu" class="mmenuButton fs-3" style="color: #fff;"><i
+                            class="fa-solid fa-bars"></i>
+                    </a>
+                    <nav id="mntk_mmenu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li class="subParents"><a href="aboutus.html">About</a>
+                                <ul class="subItem">
+                                    <li><a href="aboutus.html">About Us</a></li>
+                                    <li><a href="pricing.html">Pricing</a></li>
+                                    <li><a href="faqs.html">FAQ's</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="speakers.html">Speakers</a>
+                                <ul class="subItem">
+                                    <li><a href="speakers.html">Speakers</a></li>
+                                    <li><a href="speakersdetails.html">Speakers Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="subParents"><a href="schedule.html">Schedule</a>
+                                <ul class="subItem">
+                                    <li><a href="schedule.html">Schedule</a></li>
+                                    <li><a href="evenetDetails.html">Event Details</a></li>
+                                    <li><a href="buyTicket.html">Buy Ticket</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="dmnenu_box">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="subParents"><a href="aboutus.html">About</a>
+                            <ul class="subItem">
+                                <li><a href="aboutus.html">About Us</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="faqs.html">FAQ's</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li class="subParents"><a href="speakers.html">Speakers</a>
+                            <ul class="subItem">
+                                <li><a href="speakers.html">Speakers</a></li>
+                                <li><a href="speakersdetails.html">Speakers Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="subParents"><a href="schedule.html">Schedule</a>
+                            <ul class="subItem">
+                                <li><a href="schedule.html">Schedule</a></li>
+                                <li><a href="evenetDetails.html">Event Details</a></li>
+                                <li><a href="buyTicket.html">Buy Ticket</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <div class="ssBtn">
+                            <button type="button open_search" class="btn modalBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <button class="mainBtns">
+                                <span class="btn_text">Get Tickets</span>
+                            </button>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div class="headerSearchModal">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="search_block">
+                        <div class="search_box">
+                        <div class="inner">
+                            <input type="text" name="search" id="search" class="search_input" autocomplete="off" placeholder="Search" />
+                            <button class="search_icon glyphicon glyphicon-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <section class="aboutBanner">
+        <div class="container">
+            <div class="bannerTittle">
+                <h1 class="h1">About Us</h1>
+            </div>
+            <ul class="breadCumb">
+                <li><a href="#">Home</a></li>
+                <span></span>
+                <li>About Us</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="digitalConferance">
+        <div class="container">
+            <div class="conferanceBox">
+                <div class="conferanceTextContent order-2 order-lg-2">
+                    <div class="dehHeader">
+                        <p class="subTittle">ABOUT EVENT</p>
+                        <h2>Welcome to the World Digital Conference 2023</h2>
+                    </div>
+                    <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd idunt labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.</p>
+                    <ul class="ctcList">
+                        <li>Multiple Announcements during the event.</li>
+                        <li>Logo & company details on the WordCamp.</li>
+                        <li>Dedicated blog post thanking each Gold.</li>
+                        <li>Acknowledgment and opening and closing.</li>
+                    </ul>
+                    <div class="dcBtn">
+                            <button class="mainBtns">
+                                <span class="btn_text">Get Tickets</span>
+                            </button>
+                    </div>
+                </div>
+                <div class="conferanceImgContent order-1 order-lg-2">
+                    <figure>
+                        <img src="assets/images/about-img-1.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="posBox">
+            <img src="assets/images/icon-dots (1).png" alt="">
+        </div>
+    </section>
+
+    <section class="funFactSec">
+        <div class="container">
+            <div class="funFanContent">
+                <div class="FunFactHolder">
+                    <span class="flipIcon"><i class="fa-solid fa-headphones"></i></span>
+                    <h3 class="h3">190</h3>
+                    <p><strong>Participants</strong></p>
+                </div>
+                <div class="FunFactHolder lighgrnHolder">
+                    <span class="flipIcon"><i class="fa-solid fa-headphones"></i></span>
+                    <h3 class="h3">190</h3>
+                    <p><strong>Participants</strong></p>
+                </div>
+                <div class="FunFactHolder purpleHolder">
+                    <span class="flipIcon"><i class="fa-solid fa-headphones"></i></span>
+                    <h3 class="h3">190</h3>
+                    <p><strong>Participants</strong></p>
+                </div>
+                <div class="FunFactHolder pinkHolder">
+                    <span class="flipIcon"><i class="fa-solid fa-headphones"></i></span>
+                    <h3 class="h3">190</h3>
+                    <p><strong>Participants</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="outFeature">
+        <div class="container">
+            <div class="featureContent">
+                <div class="featureHolder">
+                    <div class="featureHeader">
+                        <p class="subTittle">FEATURES</p>
+                        <h2>Our Feature</h2>
+                    </div>
+                </div>
+                <div class="featureHolder">
+                    <div class="iconBox"><i class="fa-regular fa-user"></i></div>
+                    <div class="textContentBox">
+                        <h4>Great Speakers</h4>
+                        <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd.</p>
+                    </div>
+                </div>
+                <div class="featureHolder">
+                    <div class="iconBox"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="textContentBox">
+                        <h4>Experience</h4>
+                        <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd.</p>
+                    </div>
+                </div>
+                <div class="featureHolder">
+                    <div class="iconBox"><i class="fa-regular fa-gem"></i></div>
+                    <div class="textContentBox">
+                        <h4>Networking</h4>
+                        <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd.</p>
+                    </div>
+                </div>
+                <div class="featureHolder">
+                    <div class="iconBox"><i class="fa-solid fa-people-robbery"></i></div>
+                    <div class="textContentBox">
+                        <h4>Party</h4>
+                        <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd.</p>
+                    </div>
+                </div>
+                <div class="featureHolder">
+                    <div class="iconBox"><i class="fa-solid fa-people-group"></i></div>
+                    <div class="textContentBox">
+                        <h4>New People</h4>
+                        <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd.</p>
+                    </div>
+                </div>
+            </div>
+            <span class="stripBg"></span>
+            <span class="stripBg"></span>
+            <span class="stripBg"></span>
+        </div>
+    </section>
+
+    <section class="conferanceBg">
+        <div class="container">
+            <div class="bgCOntent text-center">
+                <div class="subtittle">
+                    <p>WE’RE A LEADING MEETUP COMPANY</p>
+                </div>
+                <div class="tittle">
+                    <h2 class="h2">We Are Always at The Forefront <br> of The Business Conference !</h2>
+                </div>
+                <div class="bgBtn">
+                    <button class="mainBtns">
+                        <span class="btn_text">Contact Us</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="eventHallDerac">
+        <div class="container">
+            <div class="deh_content">
+                <div class="deh_map order-2 order-lg-1">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14604.927911881727!2d90.3654215!3d23.7747523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1713956847450!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+                </div>
+                <div class="deh_tab order-1 order-lg-2">
+                    <div class="dehHeader">
+                        <p class="subTittle">REACH US</p>
+                        <h2>Direction for the Event hall</h2>
+                    </div>
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" content-id="time">
+                          Time
+                        </button>
+                        <button class="tab-btn" content-id="vanue">
+                          Venue
+                        </button>
+                        <button class="tab-btn" content-id="howto">
+                          How to
+                        </button>
+                    </div>
+                    <div class="tab-contents">
+                        <div class="content show" id="time">
+                          <div class="content-info">
+                            <h4 class="content-title">
+                                <i class="fa-regular fa-calendar"></i>January 20, 2023
+                            </h4>
+                            <p>9.00 AM - 04.00 PM</p>
+                            <ul class="userInfo">
+                                <li>Dianne Ameter</li>
+                                <li><a href="tel:+1234567890">+123 456 7890</a></li>
+                                <li><a href="mailto:sopport@Eventrox.com">sopport@Eventrox.com</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="content" id="vanue">
+                          <div class="content-info">
+                            <h4 class="content-title">
+                                <i class="fa-solid fa-location-dot"></i>Pearl hotel, New york, USA
+                            </h4>
+                            <p class="content-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="content" id="howto">
+                          <div class="content-info">
+                            <h4 class="content-title">
+                                <i class="fa-solid fa-diamond-turn-right"></i> How to get there
+                            </h4>
+                            <p class="content-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </di>
+    </section>
+
+    <section class="evenetroxApp">
+        <div class="container">
+            <div class="appContent">
+                <div class="appTextContent order-2 order-mg-1">
+                    <div class="appHeader">
+                        <p class="subTittle">app download</p>
+                        <h2>Eventrox App</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <div class="imgBox d-flex column-gap-3">
+                        <a href="#">
+                            <img src="assets/images/google-play.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/images/app-store.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="appImgContent order-1 order-md-2">
+                    <img src="assets/images/app-mockup.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="newsLetter">
+        <div class="container">
+            <div class="newsLetterContent text-center">
+                <div class="newsLetterLogo">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="newsLetterTittle">
+                    <h2 class="h2">Subscribe our newslatter</h2>
+                </div>
+                <div class="newsLetterDescrip">
+                    <p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm
+                        tempor incididunt ut labore dolore magna.</p>
+                </div>
+                <div class="newsLetterInput">
+                    <input type="text" placeholder="Your Email">
+                    <button><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footerContent">
+                <div class="footerHolder compDescrip">
+                    <div class="footerCOntentTittle">
+                        <a href="index.html">
+                            <img src="assets/images/footerlogo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="footerInnerCOntent">
+                        <p>We have very good strength in innovative technology and tools with over 35 years of experience. We makes long-term investments goal in global companies in different sectors, mainly in Europe and other countries.</p>
+                        <ul>
+                            <li><a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a class="pinterest" href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                            <li><a class="instagram" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a class="youtube" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a class="slype" href="#"><i class="fa-brands fa-skype"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerHolder useFullLink">
+                    <div class="footerCOntentTittle">
+                        <h4 class="h4">Useful Links</h4>
+                    </div>
+                    <div class="footerInnerCOntent">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Project</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerHolder contactUs">
+                    <div class="footerCOntentTittle">
+                        <h4 class="h4">Contact Us</h4>
+                    </div>
+                    <div class="footerInnerCOntent">
+                        <ul>
+                            <li>Mon - Fri: 09:00 - 18:00</li>
+                            <li><a href="tel:+1-345-5678-77">+1-345-5678-77</a></li>
+                            <li><a href="mailto:support@example.com">support@example.com</a></li>
+                            <li>13005 Greenville Avenue California, TX 70240</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerHolder insGallery">
+                    <div class="footerCOntentTittle">
+                        <h4 class="h4">Instagram Gallery</h4>
+                    </div>
+                    <div class="footerInnerCOntent">
+                        <div class="imgBox">
+                            <a href="#">
+                                <img src="assets/images/gw-1.jpg" alt="">
+                            </a>
+                            <div class="overlayer">
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="imgBox">
+                            <a href="#">
+                                <img src="assets/images/gw-2.jpg" alt="">
+                            </a>
+                            <div class="overlayer">
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="imgBox">
+                            <a href="#">
+                                <img src="assets/images/gw-3.jpg" alt="">
+                            </a>
+                            <div class="overlayer">
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="imgBox">
+                            <a href="#">
+                                <img src="assets/images/gw-4.jpg" alt="">
+                            </a>
+                            <div class="overlayer">
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="imgBox">
+                            <a href="#">
+                                <img src="assets/images/gw-5.jpg" alt="">
+                            </a>
+                            <div class="overlayer">
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="imgBox">
+                            <a href="#">
+                                <img src="assets/images/gw-6.jpg" alt="">
+                            </a>
+                            <div class="overlayer">
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="posButton"><i class="fa-solid fa-jet-fighter-up"></i></a>
+
+
+    <!-- <button class="mainBtns">
+        <span class="btn_text">Get Tickets</span>
+    </button> -->
+
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/mmenu-light.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="assets/js/unpkg.com_isotope-layout@3.0.6_dist_isotope.pkgd.min.js"></script>
+        <script src="assets/js/main.js"></script>
+
+        <script>
+            AOS.init();
+        </script>
+    
+    </body>
+</html>

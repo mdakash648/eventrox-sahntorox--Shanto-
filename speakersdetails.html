@@ -1,0 +1,403 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/mmenu-light.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<header>
+    <div class="container">
+        <div class="header_content">
+            <div class="headerlogoBox">
+                <a href="index.html"><img src="assets/images/headerLogo.png" alt=""></a>
+            </div>
+            <div class="headerMenuBox">
+                <div class="mmenu_box d-flex d-lg-none column-gap-3">
+                    <div class="ssBtn d-none d-sm-block d-lg-none ms-0">
+                        <button class="mainBtns ms-0">
+                            <span class="btn_text">Get Tickets</span>
+                        </button>
+                    </div>
+                    <button type="button open_search" class="btn p-0 modalBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <a href="#mntk_mmenu" class="mmenuButton fs-3" style="color: #fff;"><i
+                            class="fa-solid fa-bars"></i>
+                    </a>
+                    <nav id="mntk_mmenu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li class="subParents"><a href="aboutus.html">About</a>
+                                <ul class="subItem">
+                                    <li><a href="aboutus.html">About Us</a></li>
+                                    <li><a href="pricing.html">Pricing</a></li>
+                                    <li><a href="faqs.html">FAQ's</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="speakers.html">Speakers</a>
+                                <ul class="subItem">
+                                    <li><a href="speakers.html">Speakers</a></li>
+                                    <li><a href="speakersdetails.html">Speakers Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="subParents"><a href="schedule.html">Schedule</a>
+                                <ul class="subItem">
+                                    <li><a href="schedule.html">Schedule</a></li>
+                                    <li><a href="evenetDetails.html">Event Details</a></li>
+                                    <li><a href="buyTicket.html">Buy Ticket</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="dmnenu_box">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="subParents"><a href="aboutus.html">About</a>
+                            <ul class="subItem">
+                                <li><a href="aboutus.html">About Us</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="faqs.html">FAQ's</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li class="subParents"><a href="speakers.html">Speakers</a>
+                            <ul class="subItem">
+                                <li><a href="speakers.html">Speakers</a></li>
+                                <li><a href="speakersdetails.html">Speakers Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="subParents"><a href="schedule.html">Schedule</a>
+                            <ul class="subItem">
+                                <li><a href="schedule.html">Schedule</a></li>
+                                <li><a href="evenetDetails.html">Event Details</a></li>
+                                <li><a href="buyTicket.html">Buy Ticket</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <div class="ssBtn">
+                            <button type="button open_search" class="btn modalBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <button class="mainBtns">
+                                <span class="btn_text">Get Tickets</span>
+                            </button>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <!-- headerSearchModal -->
+
+    <div class="headerSearchModal">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="search_block">
+                        <div class="search_box">
+                        <div class="inner">
+                            <input type="text" name="search" id="search" class="search_input" autocomplete="off" placeholder="Search" />
+                            <button class="search_icon glyphicon glyphicon-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <section class="aboutBanner">
+        <div class="container">
+            <div class="bannerTittle">
+                <h1 class="h1">Speakers</h1>
+            </div>
+            <ul class="breadCumb">
+                <li><a href="#">Home</a></li>
+                <span></span>
+                <li>Speakers</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="singleSpeakers">
+        <div class="container">
+            <div class="ssContent">
+                <div class="sideBer">
+                    <div class="speakerImg">
+                        <img src="assets/images/speaker-1.jpg" alt="">
+                    </div>
+                    <div class="speakerSocial">
+                        <ul class="spsList">
+                            <li><a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a class="pinterest" href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a class="youtube" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a class="skype" href="#"><i class="fa-brands fa-skype"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mainBlock">
+                    <h3 class="h3">Dale Marke</h3>
+                    <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                    <h4 class="h4">Sessions by Marke</h4>
+                    <div class="seassion d-flex column-gap-4">
+                        <div class="seassionDay">
+                            <p><strong>Day 1</strong></p>
+                            <p>10.30 - 11.30 am</p>
+                            <p class="sessionTopic">Marketing</p>
+                        </div>
+                        <div class="seassionDay">
+                            <p><strong>Day 1</strong></p>
+                            <p>10.30 - 11.30 am</p>
+                            <p class="sessionTopic">Marketing</p>
+                        </div>
+                        <div class="seassionDay">
+                            <p><strong>Day 1</strong></p>
+                            <p>10.30 - 11.30 am</p>
+                            <p class="sessionTopic">Marketing</p>
+                        </div>
+                    </div>
+                    <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="layoutSec">
+        <div class="layoutParent layout">
+            <div class="Imglayout layout"></div>
+            <div class="Contentlayout">
+                <h2 class="h2">Modern Marketing Summit Sydney 2018</h2>
+                <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd idunt labore et dolore magna aliqua enim ad
+                    minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat</p>
+                <button class="mainBtns">
+                    <span class="btn_text">Get Tickets</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="todayPer speakersPage pt-0">
+        <div class="container">
+            <div class="perHeader">
+                <p class="subTittle">SPEAKERS</p>
+                <h2>Todays Performers</h2>
+            </div>
+            <div class="perContent">
+                <div class="perHolder">
+                    <div class="imgBox">
+                        <a href="#"><img class="perHolderSpeaker" src="assets/images/speaker-1.jpg" alt=""></a>
+                    </div>
+                    <div class="speakerInfo">
+                        <p><strong>Dale Marke</strong></p>
+                        <p>Event Manager</p>
+                    </div>
+                    <div class="speakerLink">
+                        <ul class="linkList">
+                            <li><a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a class="pinterst" href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                            <li><a class="youtube" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="perHolder">
+                    <div class="imgBox">
+                        <a href="#"><img class="perHolderSpeaker" src="assets/images/speaker-2.jpg" alt=""></a>
+                    </div>
+                    <div class="speakerInfo">
+                        <p><strong>Natisha Decoux</strong></p>
+                        <p>Event Manager</p>
+                    </div>
+                    <div class="speakerLink">
+                        <ul class="linkList">
+                            <li><a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a class="pinterst" href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                            <li><a class="youtube" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="perHolder">
+                    <div class="imgBox">
+                        <a href="#"><img class="perHolderSpeaker" src="assets/images/speaker-3.jpg" alt=""></a>
+                    </div>
+                    <div class="speakerInfo">
+                        <p><strong>Adolfo Plahs</strong></p>
+                        <p>Event Manager</p>
+                    </div>
+                    <div class="speakerLink">
+                        <ul class="linkList">
+                            <li><a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a class="pinterst" href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                            <li><a class="youtube" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="perHolder">
+                    <div class="imgBox">
+                        <a href="#"><img class="perHolderSpeaker" src="assets/images/speaker-4.jpg" alt=""></a>
+                    </div>
+                    <div class="speakerInfo">
+                        <p><strong>Mitchell Hegg</strong></p>
+                        <p>Event Manager</p>
+                    </div>
+                    <div class="speakerLink">
+                        <ul class="linkList">
+                            <li><a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a class="pinterst" href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                            <li><a class="youtube" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footerContent">
+                <div class="footerHolder compDescrip">
+                    <div class="footerCOntentTittle">
+                        <a href="index.html">
+                            <img src="assets/images/footerlogo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="footerInnerCOntent">
+                        <p>We have very good strength in innovative technology and tools with over 35 years of experience. We makes long-term investments goal in global companies in different sectors, mainly in Europe and other countries.</p>
+                        <ul>
+                            <li><a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a class="pinterest" href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                            <li><a class="instagram" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a class="youtube" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a class="slype" href="#"><i class="fa-brands fa-skype"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerHolder useFullLink">
+                    <div class="footerCOntentTittle">
+                        <h4 class="h4">Useful Links</h4>
+                    </div>
+                    <div class="footerInnerCOntent">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Project</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerHolder contactUs">
+                    <div class="footerCOntentTittle">
+                        <h4 class="h4">Contact Us</h4>
+                    </div>
+                    <div class="footerInnerCOntent">
+                        <ul>
+                            <li>Mon - Fri: 09:00 - 18:00</li>
+                            <li><a href="tel:+1-345-5678-77">+1-345-5678-77</a></li>
+                            <li><a href="mailto:support@example.com">support@example.com</a></li>
+                            <li>13005 Greenville Avenue California, TX 70240</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerHolder insGallery">
+                    <div class="footerCOntentTittle">
+                        <h4 class="h4">Instagram Gallery</h4>
+                    </div>
+                    <div class="footerInnerCOntent">
+                        <div class="imgBox">
+                            <a href="#">
+                                <img src="assets/images/gw-1.jpg" alt="">
+                            </a>
+                            <div class="overlayer">
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="imgBox">
+                            <a href="#">
+                                <img src="assets/images/gw-2.jpg" alt="">
+                            </a>
+                            <div class="overlayer">
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="imgBox">
+                            <a href="#">
+                                <img src="assets/images/gw-3.jpg" alt="">
+                            </a>
+                            <div class="overlayer">
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="imgBox">
+                            <a href="#">
+                                <img src="assets/images/gw-4.jpg" alt="">
+                            </a>
+                            <div class="overlayer">
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="imgBox">
+                            <a href="#">
+                                <img src="assets/images/gw-5.jpg" alt="">
+                            </a>
+                            <div class="overlayer">
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="imgBox">
+                            <a href="#">
+                                <img src="assets/images/gw-6.jpg" alt="">
+                            </a>
+                            <div class="overlayer">
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<a href="#" class="posButton"><i class="fa-solid fa-jet-fighter-up"></i></a>
+
+
+<!-- <button class="mainBtns">
+    <span class="btn_text">Get Tickets</span>
+</button> -->
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/mmenu-light.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/unpkg.com_isotope-layout@3.0.6_dist_isotope.pkgd.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
